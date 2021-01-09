@@ -1,0 +1,58 @@
+puuka@AWF MINGW64 ~/OneDrive/Documentos/projetos/digital-house-aulas (main)
+$ cd Aula07-Introducao-Git-e-JS
+
+puuka@AWF MINGW64 ~/OneDrive/Documentos/projetos/digital-house-aulas/Aula07-Introducao-Git-e-JS (main)
+$ ls -la
+total 4
+drwxr-xr-x 1 puuka 197609 0 Dec 16 17:07 ./
+drwxr-xr-x 1 puuka 197609 0 Dec 16 17:11 ../
+
+puuka@AWF MINGW64 ~/OneDrive/Documentos/projetos/digital-house-aulas/Aula07-Introducao-Git-e-JS (main)
+$ pwd
+/c/Users/puuka/OneDrive/Documentos/projetos/digital-house-aulas/Aula07-Introducao-Git-e-JS
+
+puuka@AWF MINGW64 ~/OneDrive/Documentos/projetos/digital-house-aulas/Aula07-Introducao-Git-e-JS (main)
+$ mkdir exercicios
+
+puuka@AWF MINGW64 ~/OneDrive/Documentos/projetos/digital-house-aulas/Aula07-Introducao-Git-e-JS (main)
+$ cd exercicios
+
+puuka@AWF MINGW64 ~/OneDrive/Documentos/projetos/digital-house-aulas/Aula07-Introducao-Git-e-JS/exercicios (main)
+$ touch exercicios.js
+
+puuka@AWF MINGW64 ~/OneDrive/Documentos/projetos/digital-house-aulas/Aula07-Introducao-Git-e-JS/exercicios (main)
+$ rm exercicios.js
+
+puuka@AWF MINGW64 ~/OneDrive/Documentos/projetos/digital-house-aulas/Aula07-Introducao-Git-e-JS/exercicios (main)
+$ cd ..
+
+puuka@AWF MINGW64 ~/OneDrive/Documentos/projetos/digital-house-aulas/Aula07-Introducao-Git-e-JS (main)
+$ pwd
+/c/Users/puuka/OneDrive/Documentos/projetos/digital-house-aulas/Aula07-Introducao-Git-e-JS
+
+puuka@AWF MINGW64 ~/OneDrive/Documentos/projetos/digital-house-aulas/Aula07-Introducao-Git-e-JS (main)
+$ rm -rf exercicios
+
+puuka@AWF MINGW64 ~/OneDrive/Documentos/projetos/digital-house-aulas/Aula07-Introducao-Git-e-JS (main)
+$ mkdir exercicios-aula-07
+
+puuka@AWF MINGW64 ~/OneDrive/Documentos/projetos/digital-house-aulas/Aula07-Introducao-Git-e-JS (main)
+$ touch exercicios-aula-07.js
+
+puuka@AWF MINGW64 ~/OneDrive/Documentos/projetos/digital-house-aulas/Aula07-Introducao-Git-e-JS (main)
+$ rm ^C
+
+puuka@AWF MINGW64 ~/OneDrive/Documentos/projetos/digital-house-aulas/Aula07-Introducao-Git-e-JS (main)
+$ rm exercicios-aula-07.js
+
+puuka@AWF MINGW64 ~/OneDrive/Documentos/projetos/digital-house-aulas/Aula07-Introducao-Git-e-JS (main)
+$ cd exercicios-aula-07
+
+puuka@AWF MINGW64 ~/OneDrive/Documentos/projetos/digital-house-aulas/Aula07-Introducao-Git-e-JS/exercicios-aula-07 (main)
+$ touch exercicios-aula-07.js
+
+puuka@AWF MINGW64 ~/OneDrive/Documentos/projetos/digital-house-aulas/Aula07-Introducao-Git-e-JS/exercicios-aula-07 (main)
+$ touch comados-git-bash-here.txt
+
+puuka@AWF MINGW64 ~/OneDrive/Documentos/projetos/digital-house-aulas/Aula07-Introducao-Git-e-JS/exercicios-aula-07 (main)
+$

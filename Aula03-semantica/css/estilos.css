@@ -1,0 +1,29 @@
+/*Inicío da estilização da página*/
+*{margin: 0; padding: 0; font-size: 100%; border: none; outline: none; font-weight: 300;
+box-sizing: border-box;
+}
+body {
+    background-color: #cbebd5;
+    font-family: sans-serif;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    color: #304ffe;
+    font-style: italic;
+}
+h2,h3 {
+    font-style: unset;
+    text-decoration: underline;
+}
+p {
+    text-align: justify;
+    font-size: 14px;
+    line-height: 25px;
+}
+em{color: firebrick;}
+strong{background-color: mediumpurple;}
+mark{background-color: deepskyblue;}
+abbr{background-color: white; color: teal;}
+/*Fim da estilização da página*/
+

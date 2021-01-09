@@ -1,0 +1,19 @@
+body {
+    background-color: #bdbdbd;
+    font-family: sans-serif;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    color: #304ffe;
+    font-style: italic;
+}
+h2,h3 {
+    font-style: unset;
+    text-decoration: underline;
+}
+p {
+    text-align: justify;
+    font-size: 14px;
+    line-height: 25px;
+}

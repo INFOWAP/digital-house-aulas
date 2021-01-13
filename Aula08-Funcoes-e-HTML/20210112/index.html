@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos de click</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body onload="boasVindas()", onresize="alert('A página esta sendo redimencinada!')">
+    <div class="container">
+    <div class="centro" onclick="boasVindas()">onclick - quando é pressionado e liberado o botão primário do mouse.</div>
+    <div class="centro" onmousedown="boasVindas()">onmousedown - O evento ocorre quando o usuário prime o clique!</div>
+    <div class="centro" onmouseout="boasVindas()">onmouseout - quando o cursor do mouse se move para fora dos limites de um elemento.</div>
+    <div class="centro" onmouseover="boasVindas()">onmouseover - quando o cursor do mouse é movido para sobre algum elemento.</div>
+    <div class="centro" ondblclick="boasVindas()">ondblclick - quando acontece um clique duplo com o mouse.</div>
+</div><hr>
+    <input type="text" onkeypress="boasVindas()" placeholder="onkeypress"><br><br><!--Ocorre quando precionada qualquer tecla-->
+    <input type="text" onkeydown="boasVindas()" placeholder="onkeydown"><br><br><!---->
+    <input type="text" onkeyup="boasVindas()" placeholder="onkeyup"><hr><!---->
+
+    <select name="" id="" onchange="boasVindas()"><!---->
+        <option value="1">1ª opção</option>
+        <option value="2">2ª opção</option>
+    </select><br><br>
+
+    <select name="" id="" onblur="boasVindas()"><!---->
+        <option value="1">1ª opção</option>
+        <option value="2">2ª opção</option>
+    </select><br><br>
+
+    <select name="" id="" onfocus="boasVindas()"><!---->
+        <option value="1">1ª opção</option>
+        <option value="2">2ª opção</option>
+    </select><hr>
+
+
+</body>
+<script src="js/script.js" type="text/javascript"></script>
+</html>

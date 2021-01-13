@@ -40,6 +40,23 @@ ePrimo(11);
 3 - Crie uma função que imprime de 10 até 1 e depois imprime na tela “feliz ano novo” através de
 uma callback
 */
+contAno = (callback) => {
+    setTimeout(function () {
+        return console.log(`Feliz ano novo!!!`);
+        callback();
+    }, 2000);
+
+};
+anoNovo = () => {
+    var i;
+    var regr;
+    for (i = 10; i > 0; i--) {
+        console.log(i);
+    };
+};
+
+anoNovo();
+contAno();
 
 /*
 4 - Faça o mesmo utilizando Promise com concatenação de then

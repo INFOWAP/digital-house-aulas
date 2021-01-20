@@ -1,0 +1,14 @@
+{
+    "usuarios": [
+        {
+            "id": 1,
+            "nome": "Rafael",
+            "cidade": "Ilhéus"
+        },
+        {
+            "id": 2,
+            "nome": "Ian",
+            "cidade": "Ubaitaba"
+        }
+    ]
+}

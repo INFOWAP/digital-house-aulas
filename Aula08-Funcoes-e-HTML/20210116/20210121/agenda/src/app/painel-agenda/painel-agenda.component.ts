@@ -6,9 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./painel-agenda.component.css']
 })
 export class PainelAgendaComponent implements OnInit {
-
-  nome = 'Adão - app-painel-agenda';
-  
+nome = "Wapnyk"; 
   constructor() { }
 
   ngOnInit(): void {

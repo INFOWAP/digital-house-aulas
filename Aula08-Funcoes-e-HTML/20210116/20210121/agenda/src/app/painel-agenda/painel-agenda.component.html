@@ -1,5 +1,17 @@
-<h1>
-   Olá {{nome}}!
-</h1>
-<br>
-<input type="text" [(ngModel)]="nome">
+<!-- 
+Atalho para construir a tabela abaixo   table>tr>th*3 
+-->
+
+<table border="1">
+   <tr>
+      <th>Id:</th>
+      <th>Nome:</th>
+      <th>Telefone:</th>
+   </tr>
+   <!-- Mostrando estrutura dos dados -->
+   <tr *ngFor="let a of agenda">
+      <td>{{a.id}}</td>
+      <td>{{a.nome}}</td>
+      <td>{{a.telefone}}</td>
+   </tr>
+</table>

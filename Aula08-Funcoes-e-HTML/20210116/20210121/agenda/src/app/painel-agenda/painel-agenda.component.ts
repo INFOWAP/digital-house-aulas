@@ -15,7 +15,8 @@ export class PainelAgendaComponent implements OnInit {
   ];*/
 
   agenda = [];
-
+  contato: any = {}; // = {id: 2, nome:"Paloma", telefone:"(11)983019111"},
+  
   constructor(private service:AgendaService) { };
 
   ngOnInit(): void {
@@ -27,5 +28,14 @@ buscar(){
   listar().
   subscribe(resposta => this.agenda = <any> resposta);
 };
+adicionar(){
+  this.service.salvar(this.contato).subscribe();
+  this.service.salvar(this.contato).subscribe(() => {  
+  this.contato = {}; //limpar os campos  
+  this.buscar(); //atualizar a lista de agenda  
+  });
+  
+  }
+
 
 }

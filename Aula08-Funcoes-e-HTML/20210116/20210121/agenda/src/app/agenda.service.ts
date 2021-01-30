@@ -7,9 +7,13 @@ import { Injectable } from '@angular/core';
 export class AgendaService {
   // URL do json-server / projeto back-end
   url = 'http://localhost:3000/agenda';
+  
   constructor(private http:HttpClient) {};
   
   listar(){
     return this.http.get(this.url);
+  };
+  salvar(contato: any){
+    return this.http.post(this.url,contato)
   };
 };

@@ -1,6 +1,6 @@
 import { AgendaService } from './../agenda.service';
 import { Component, OnInit } from '@angular/core';
-import { tick } from '@angular/core/testing';
+
 
 @Component({
   selector: 'app-painel-agenda',
@@ -17,7 +17,7 @@ export class PainelAgendaComponent implements OnInit {
 
   agenda = [];
   contato: any = {}; // = {id: 2, nome:"Paloma", telefone:"(11)983019111"},
-  operacao: boolean;
+  operacao: boolean = true;
 
   constructor(private service: AgendaService) { };
 
@@ -41,7 +41,7 @@ export class PainelAgendaComponent implements OnInit {
     confirm(`Você tem certeza que quer excluír o registro ${id}`);
     this.service.excluir(id).subscribe(() => {
       this.buscar();
-      alert(`O Id ${id} foi excluído com sucesso!`);
+      alert(`O registro ${id} foi excluído com sucesso!`);
     },
       () => alert('Não foi possível excluír')
     );
@@ -65,6 +65,6 @@ export class PainelAgendaComponent implements OnInit {
       this.contato = {};
       this.buscar();
     },
-    () => alert("Não foi atualizar este contato."));
+    () => alert("Não foi possível atualizar este contato!"));
   }
 };
